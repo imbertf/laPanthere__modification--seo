@@ -780,7 +780,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1054,4 +1054,12 @@ h4 {
 
 .presentation__txt+p{
     font-size: 15px;
+}
+
+.txt-white {
+    color: #fff!important;
+}
+
+.txt-black {
+    color: #000!important;
 }
