@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -759,7 +759,6 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
 }
 
 .bgc-white {
@@ -822,7 +821,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1062,4 +1061,9 @@ h4 {
 
 .txt-black {
     color: #000!important;
+}
+
+.bloc-md--txt {
+    font-weight: bolder;
+    font-size: 15px;
 }
