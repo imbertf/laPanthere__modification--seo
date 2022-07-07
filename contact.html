@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="robots">
+	<meta name="robots" content="">
 	<meta name="google-site-verification" content="SYyGmxgJVl8EoLpmEljNBSxHh7I6xctxbzRRmBwj36Q" />
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -15,11 +15,11 @@
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 
 
-	<script async src="./js/jquery-2.1.0.js"></script>
-	<script async src="./js/bootstrap.js"></script>
-	<script async src="./js/blocs.js"></script>
-	<script async src="./js/jqBootstrapValidation.js"></script>
-	<script async src="./js/formHandler.js"></script>
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
+	<script src="./js/jqBootstrapValidation.js"></script>
+	<script src="./js/formHandler.js"></script>
 
 	<title>Laissez vous accompagner par une agence web expérimentée</title>
 
@@ -81,19 +81,18 @@
 				</div>
 				<!-- bloc-6 END -->
 			</section>
-			<section>
 				<!-- bloc-7 -->
 				<div class="bloc bgc-white l-bloc" id="bloc-7">
 					<div class="container bloc-lg">
 						<div class="row">
 							<div class="col-sm-6">
-								<form id="form_1" novalidate success-msg="Your message has been sent."
-									fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+								<form id="form_1" data-success-msg="Your message has been sent."
+									data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!" action="form_1.php">
 									<div class="form-group">
 										<label for="name">
 											Nom
 										</label>
-										<input id="name" class="form-control" required />
+										<input id="name" class="form-control" required autofocus/>
 									</div>
 									<div class="form-group">
 										<label for="email">
@@ -105,7 +104,7 @@
 										<label for="input_504">
 											Comment nous avez-vous connu ?
 										</label>
-										<input class="form-control" type="email" required id="input_504" />
+										<input class="form-control" type="texte" required id="input_504" />
 									</div>
 									<div class="form-group">
 										<label for="message">
@@ -136,7 +135,6 @@
 				<a class="bloc-button btn btn-d scrollToTop" aria-label="Haut de la page"
 					onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 				<!-- ScrollToTop Button END-->
-			</section>
 		</main>
 		<footer>
 			<!-- Footer - bloc-8 -->
