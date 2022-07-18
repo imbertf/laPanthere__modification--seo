@@ -607,6 +607,7 @@ h3 {
 .portfolio-thumb {
     margin-bottom: 24px;
     width: 100%;
+    /* ajout de width */
 }
 .portfolio-row {
     margin-bottom: 44px;
